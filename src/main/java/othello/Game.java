@@ -78,9 +78,9 @@ public class Game {
         int xCount = board.countPieces(PlayerSymbol.X) ;
         int oCount = board.countPieces(PlayerSymbol.O) ;
         if (xCount > oCount) {
-            System.out.println("Player ‘X’ wins ( "+xCount+" vs "+oCount+" )");
+            System.out.println("Player 'X' wins ( "+xCount+" vs "+oCount+" )");
         } else if (oCount > xCount) {
-            System.out.println("Player ‘O’ wins ( "+oCount+" vs "+xCount+" )");
+            System.out.println("Player 'O' wins ( "+oCount+" vs "+xCount+" )");
         } else {
             System.out.println("Draw ( Player X : "+xCount+" vs Player Y : "+oCount+" )");
         }

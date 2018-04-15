@@ -1,7 +1,5 @@
 package othello;
 
-import sun.nio.ch.Net;
-
 enum PlayerSymbol {
 
 
