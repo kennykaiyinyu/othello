@@ -2,3 +2,4 @@ build/
 Othello.iml
 Othello.ipr
 Othello.iws
+.gradle/
