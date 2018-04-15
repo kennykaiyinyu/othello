@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+mainClassName = 'othello.Othello'
+
+
+repositories {
+    mavenCentral()
+}
+
+run{
+ standardInput = System.in
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.5'
+
+    testCompile "junit:junit:4.11"
+}
